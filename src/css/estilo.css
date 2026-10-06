@@ -1,12 +1,28 @@
-.logo:hover{
-    color: #b9b9b9;
+.logo:hover {
+    color: #141414;
     letter-spacing: 10px;
     animation: acender 0.5s forwards;
 }
 
-@keyframes acender{
-    to{
-        color:white;
-        text-shadow: 0 0 10px #af0089, 0 0 20px #a8dfe1;
+@keyframes acender {
+    to {
+        color: white;
+        text-shadow: 0 0 10px #c704f8, 0 0 20px #a8dfe1;
     }
+
+}
+
+.titulo {
+    background-image: linear-gradient(to right, #a204fd, #c87bdd, #a204fd);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+.titulo:hover {
+    animation: acender 0.5s forwars;
+
 }
